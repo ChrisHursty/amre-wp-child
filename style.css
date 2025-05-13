@@ -1,0 +1,47 @@
+/*
+ Theme Name:   AMRE WP Child
+ Theme URI:    https://amrealestateny.com/
+ Description:  Child theme for AMRE WP — safe place for overrides
+ Author:       Chris Hurst
+ Template:     am-real-estate
+ Version:      1.0.0
+ Text Domain:  amre-wp-child
+*/
+
+/* =Enqueue parent theme CSS
+--------------------------------------------- */
+
+.tribe-events-c-top-bar {
+	margin-top: 80px !important;
+}
+
+.tribe-events-back {
+	margin-top: 100px !important;
+}
+
+.tribe-events-header__events-bar {
+	display: none !important;
+}
+
+
+@media screen and (max-width: 1067px) {
+	.tribe-events-c-top-bar {
+		margin-top: 60px !important;
+	}
+}
+
+.page-id-355 h1 {
+	margin-bottom: 25px;
+}
+.tribe-common .tribe-common-h3 {
+	color: #3f5a36 !important;
+	font-family: "IM Fell English", serif;	
+}
+
+.archive-card-price {
+	margin-bottom: 15px;
+}
+
+.archive-btns a.button {
+	margin-bottom: 10px;
+}
