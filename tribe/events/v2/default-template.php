@@ -1,4 +1,5 @@
 <?php
+// 🚨 DEFAULT-TEMPLATE OVERRIDE WORKING!
 /**
  * View: Default Template for Events
  *

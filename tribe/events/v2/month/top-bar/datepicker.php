@@ -27,7 +27,7 @@ $default_date        = $now;
 $selected_date_value = $this->get( [ 'bar', 'date' ], $default_date );
 $datepicker_date     = Dates::build_date_object( $selected_date_value )->format( $date_formats->compact );
 ?>
-<div class="tribe-events-c-top-bar__datepicker">
+<div class="tribe-events-c-top-bar__datepicker one">
 	<button
 		class="tribe-common-c-btn__clear tribe-common-h3 tribe-common-h--alt tribe-events-c-top-bar__datepicker-button"
 		data-js="tribe-events-top-bar-datepicker-button"

@@ -15,7 +15,7 @@
  * @var string $next_url The URL to the next page, if any, or an empty string.
  */
 ?>
-<nav class="tribe-events-c-top-bar__nav tribe-common-a11y-hidden">
+<nav class="tribe-events-c-top-bar__nav tribe-common-a11y-hidden one">
 	<ul class="tribe-events-c-top-bar__nav-list">
 		<?php
 		if ( ! empty( $prev_url ) ) {
@@ -24,7 +24,9 @@
 			$this->template( 'month/top-bar/nav/prev-disabled' );
 		}
 		?>
-
+		<li class="tribe-events-c-top-bar__nav-list-item">
+			<?php $this->template( 'month/top-bar/datepicker' ); ?>
+		</li>
 		<?php
 		if ( ! empty( $next_url ) ) {
 			$this->template( 'month/top-bar/nav/next' );

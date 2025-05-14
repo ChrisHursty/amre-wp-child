@@ -13,7 +13,7 @@
  *
  */
 ?>
-<div class="tribe-events-c-top-bar tribe-events-header__top-bar">
+<div class="tribe-events-c-top-bar tribe-events-header__top-bar day">
 
 	<?php $this->template( 'day/top-bar/nav' ); ?>
 

@@ -13,13 +13,9 @@
  *
  */
 ?>
-<div class="tribe-events-c-top-bar tribe-events-header__top-bar">
+<div class="tribe-events-c-top-bar tribe-events-header__top-bar month">
 
 	<?php $this->template( 'month/top-bar/nav' ); ?>
-
-	<?php $this->template( 'components/top-bar/today' ); ?>
-
-	<?php $this->template( 'month/top-bar/datepicker' ); ?>
 
 	<?php $this->template( 'components/top-bar/actions' ); ?>
 
