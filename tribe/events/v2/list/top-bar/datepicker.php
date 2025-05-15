@@ -39,17 +39,17 @@
 			class="tribe-events-c-top-bar__datepicker-time"
 		>
 			<?php if ( $show_now ) : ?>
-				<span class="tribe-events-c-top-bar__datepicker-mobile">
+				<span class="tribe-events-c-top-bar__datepicker-mobile tribe-common-a11y-hidden">
 					<?php echo esc_html( $now_label_mobile ); ?>
 				</span>
-				<span class="tribe-events-c-top-bar__datepicker-desktop tribe-common-a11y-hidden">
+				<span class="tribe-events-c-top-bar__datepicker-desktop">
 					<?php echo esc_html( $now_label ); ?>
 				</span>
 			<?php else : ?>
-				<span class="tribe-events-c-top-bar__datepicker-mobile">
+				<span class="tribe-events-c-top-bar__datepicker-mobile tribe-common-a11y-hidden">
 					<?php echo esc_html( $selected_start_date_mobile ); ?>
 				</span>
-				<span class="tribe-events-c-top-bar__datepicker-desktop tribe-common-a11y-hidden">
+				<span class="tribe-events-c-top-bar__datepicker-desktop">
 					<?php echo esc_html( $selected_start_date_label ); ?>
 				</span>
 			<?php endif; ?>

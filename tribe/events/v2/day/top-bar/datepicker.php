@@ -39,10 +39,10 @@ $datepicker_date = Dates::build_date_object( $selected_date_value )->format( $da
 			datetime="<?php echo esc_attr( date( 'Y-m-d', $selected_datetime ) ); ?>"
 			class="tribe-events-c-top-bar__datepicker-time"
 		>
-			<span class="tribe-events-c-top-bar__datepicker-mobile">
+			<span class="tribe-events-c-top-bar__datepicker-mobile tribe-common-a11y-hidden">
 				<?php echo esc_html( $datepicker_date ); ?>
 			</span>
-			<span class="tribe-events-c-top-bar__datepicker-desktop tribe-common-a11y-hidden">
+			<span class="tribe-events-c-top-bar__datepicker-desktop">
 				<?php echo esc_html( $selected_date_label ); ?>
 			</span>
 		</time>

@@ -21,7 +21,7 @@
 		if ( ! empty( $prev_url ) ) {
 			$this->template( 'month/top-bar/nav/prev' );
 		} else {
-			$this->template( 'month/top-bar/nav/prev-disabled' );
+			$this->template( 'month/top-bar/nav/prev' );
 		}
 		?>
 		<li class="tribe-events-c-top-bar__nav-list-item">
@@ -31,7 +31,7 @@
 		if ( ! empty( $next_url ) ) {
 			$this->template( 'month/top-bar/nav/next' );
 		} else {
-			$this->template( 'month/top-bar/nav/next-disabled' );
+			$this->template( 'month/top-bar/nav/next' );
 		}
 		?>
 	</ul>

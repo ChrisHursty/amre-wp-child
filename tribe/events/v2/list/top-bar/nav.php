@@ -19,9 +19,9 @@
 	<ul class="tribe-events-c-top-bar__nav-list">
 		<?php
 		if ( ! empty( $prev_url ) ) {
-			$this->template( 'list/top-bar/nav/prev' );
+			$this->template( 'month/top-bar/nav/prev' );
 		} else {
-			$this->template( 'list/top-bar/nav/prev-disabled' );
+			$this->template( 'month/top-bar/nav/prev' );
 		}
 		?>
 		<li class="tribe-events-c-top-bar__nav-list-item">
@@ -29,9 +29,9 @@
 		</li>
 		<?php
 		if ( ! empty( $next_url ) ) {
-			$this->template( 'list/top-bar/nav/next' );
+			$this->template( 'month/top-bar/nav/next' );
 		} else {
-			$this->template( 'list/top-bar/nav/next-disabled' );
+			$this->template( 'month/top-bar/nav/next' );
 		}
 		?>
 	</ul>
